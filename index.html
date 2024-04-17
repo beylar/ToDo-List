@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organize your tasks</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Schedule your day</h1>
+        <form id="form">
+            <!--Can i create a portal for repeating of the tasks the user would like to displayed on a daily basis-->
+        <label for = "Choose a task">Choose a task</label>
+        <ul id="list">
+            <li>Personal task
+                <select name="tasks" id="p-tasks">
+                    <option value = "Choose">Choose</option>
+                    <option value = "Showering">Showering</option>
+                    <option value="Making my bed">Making my bed</option>
+                    <option value = "Journaling">Journaling</option>
+                </select>
+            </li>
+            <li>Professional tasks
+                <select name="tasks" id="pl-tasks">
+                    <option value="Choose">Choose</option>
+                    <option value = "Finishing my presentation">Finishing my presentation</option>
+                    <option value = "Writing my proposal">Writing my proposal</option>
+                </select>
+            </li>
+        </ul>
+        <label for="task"></label>
+            <input type="text" id="input" placeholder="">
+            <button type="submit" style="background-color: goldenrod;">Add</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
